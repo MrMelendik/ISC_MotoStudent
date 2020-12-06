@@ -14,10 +14,10 @@ def collect_data():
         En caso de que haya que pasarle algo a la funcion
 
     Returns:
-        bms1: dicctionary with the data collected from the first bms
-        bms2: dicctionary with the data collected from the second bms
-        bms1: dicctionary with the data collected from the third bms
-        general: dicctionary with the data collected from the general parameters
+        bms1: dictionary with the data collected from the first bms
+        bms2: dictionary with the data collected from the second bms
+        bms1: dictionary with the data collected from the third bms
+        general: dictionary with the data collected from the general parameters
     """
 
     "Aqui va el codigo de alberto para recoger los datos que puede venir en forma de diccionario"
