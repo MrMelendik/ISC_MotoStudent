@@ -1,16 +1,20 @@
 import sqlite3
 import time
 
-conn = sqlite3.connect('../../motodata.db')
+# Create the connecection to the database
+conn = sqlite3.connect('../../dataBaseMoto.db')
 c = conn.cursor()
+
 
 def collect_data():
     "Aqui va el codigo de alberto para recoger los datos que puede venir en forma de diccionario"
+    #TODO: Función para recoger los datos de los bms y meterlos en diccionarios (Alberto jr.)
+    
     bms1 = dict()
     bms2 = dict()
     bms3 = dict()
     general = dict()
-    
+
     temperature = 35.5
     voltage1 = 15.2
     voltage2 = 14.8
